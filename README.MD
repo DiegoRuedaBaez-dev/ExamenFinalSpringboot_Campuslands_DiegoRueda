@@ -97,19 +97,6 @@ A continuación se describen los endpoints CRUD (Create, Read, Update, Delete) i
    ```bash
    mvn spring-boot:run
    ```
-
-## Pruebas
-
-Puedes probar los endpoints usando herramientas como Postman o cURL.
-
-### Ejemplo de prueba con cURL
-
-**Crear una nueva farmacia:**
-```bash
-curl -X POST http://localhost:8080/farmacy -H "Content-Type: application/json" -d '{"namefarmacy":"Pharmacy Name","addressfarmacy":"123 Main St","codecityfarmacy":"C001","long":-118.2437,"lat":34.0522,"logo":"logo.png"}'
-```
-
-**Obtener todas las farmacias:**
 ```bash
 curl -X GET http://localhost:8080/farmacy
 ```
