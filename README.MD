@@ -1,4 +1,4 @@
-# Proyecto Spring Boot - Gestión de Farmacias
+# Examen Final Spring Boot - Gestión de Farmacias
 
 ## Descripción del Proyecto
 
